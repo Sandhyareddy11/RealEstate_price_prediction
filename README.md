@@ -1,48 +1,52 @@
-# RealEstate_price_prediction
-Predicting Bangalore house prices using learning
-
-This project predicts house prices in Bangalore using machine learning techniques. It includes data cleaning, feature engineering, and regression modeling.
-
----
-
-## Dataset
-- Bengaluru_House_Data.csv contains features like location, total sqft, number of bathrooms, BHK, etc.
-
----
-
-## Features
-- Data cleaning: Removing missing values and invalid entries
-- Feature engineering: Created price_per_sqft feature
-- Dimensionality reduction: Location-wise filtering
-- One-hot encoding for categorical features
-- Outlier detection and removal
-- Model used: *Linear Regression*
-- Hyperparameter tuning with *GridSearchCV*
-- Accuracy: *~81%*
-
----
-
-## Libraries Used
-- Python
-- Pandas, NumPy
-- Matplotlib
-- Scikit-learn
-
----
-
-## How to Run
-
-1. Clone this repo
-2. Open the Jupyter Notebook
-3. Run all cells to train and test the model
-
-```bash
-pip install pandas numpy matplotlib scikit-learn jupyter
-jupyter notebook
 
 
+# 🏠 Real Estate Price Prediction - Bengaluru
 
+This project aims to predict housing prices in Bengaluru using machine learning techniques. It helps potential buyers and real estate professionals estimate property prices based on important features such as location, area, number of bedrooms, and more.
 
-##contact
-For questions,feel free to reach out
-BIJJAM SANDHYA,(Email:bijjamsandhya85@gmail.com)
+## 📊 Project Overview
+
+- *Objective:* Predict accurate house prices using regression models.
+- *Tools & Libraries Used:*
+  - Python
+  - Pandas, NumPy
+  - Matplotlib, Seaborn
+  - Scikit-learn (Linear Regression, Lasso, Decision Tree)
+
+## 📁 Project Files
+
+- house_prices.ipynb – Main Jupyter Notebook containing data cleaning, EDA, model training, and evaluation.
+- Bengaluru_House_Data.csv – Dataset containing house details from Bengaluru.
+- README.md – Project documentation.
+
+## 🔍 Steps Followed
+
+1. *Data Cleaning:*
+   - Removed duplicates and null values
+   - Handled outliers and rare locations
+2. *Exploratory Data Analysis (EDA):*
+   - Visualized price trends by location, area, BHK, and other features
+3. *Feature Engineering:*
+   - Created useful features like price per square foot
+   - Converted categorical variables
+4. *Model Building:*
+   - Trained Linear Regression, Lasso, and Decision Tree Regressor models
+   - Compared performance using R² Score
+5. *Model Evaluation:*
+   - Achieved ~81% accuracy on test data
+
+## 📌 Key Results
+
+- Linear Regression performed best with 81% accuracy.
+- Location and total square footage were the most influential features.
+
+## 💡 Future Improvements
+
+- Integrate a Flask web app for user input and price prediction.
+- Try advanced models like Random Forest or XGBoost.
+- Improve location categorization using clustering.
+
+## 📬 Contact
+
+Created by [Sandhya Reddy](https://github.com/Sandhyareddy11)  
+Feel free to connect and suggest improvements!
