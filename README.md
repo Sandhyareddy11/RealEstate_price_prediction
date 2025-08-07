@@ -1,10 +1,10 @@
 
 
-# 🏠 Real Estate Price Prediction - Bengaluru
+# Real Estate Price Prediction - Bengaluru
 
 This project aims to predict housing prices in Bengaluru using machine learning techniques. It helps potential buyers and real estate professionals estimate property prices based on important features such as location, area, number of bedrooms, and more.
 
-## 📊 Project Overview
+## Project Overview
 
 - *Objective:* Predict accurate house prices using regression models.
 - *Tools & Libraries Used:*
@@ -19,7 +19,7 @@ This project aims to predict housing prices in Bengaluru using machine learning 
 - Bengaluru_House_Data.csv – Dataset containing house details from Bengaluru.
 - README.md – Project documentation.
 
-## 🔍 Steps Followed
+## Steps Followed
 
 1. *Data Cleaning:*
    - Removed duplicates and null values
@@ -35,18 +35,18 @@ This project aims to predict housing prices in Bengaluru using machine learning 
 5. *Model Evaluation:*
    - Achieved ~81% accuracy on test data
 
-## 📌 Key Results
+## Key Results
 
 - Linear Regression performed best with 81% accuracy.
 - Location and total square footage were the most influential features.
 
-## 💡 Future Improvements
+## Future Improvements
 
 - Integrate a Flask web app for user input and price prediction.
 - Try advanced models like Random Forest or XGBoost.
 - Improve location categorization using clustering.
 
-## 📬 Contact
+## Contact
 
 Created by [Sandhya Reddy](https://github.com/Sandhyareddy11)  
 Feel free to connect and suggest improvements!
